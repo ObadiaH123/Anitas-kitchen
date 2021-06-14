@@ -238,3 +238,31 @@ margin: 5px;
     height: 90%;
     margin-bottom: 5%;
 }
+
+#submenu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+}
+
+th{
+    padding: 15px;
+    background-color: rgb(204, 203,206);
+    margin: 25px;
+}
+
+h5{
+    color: #F15A29;
+    font-size: 20px;
+}
+#fast{
+    color: #F15A29;
+    background-color: white;
+}
+
+.cust{
+    color: #F15A29;
+    font-size: 40px;
+}
