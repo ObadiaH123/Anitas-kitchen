@@ -359,3 +359,21 @@ input[type=submit] {
     /* background-color: lawngreen; */
 
 }
+
+.customers {
+    border: 1px solid grey;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    width: 700px;
+}
+
+.about-menu {
+    border: 1px solid grey;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    width: 400px;
+}
