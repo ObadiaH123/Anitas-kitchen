@@ -14,7 +14,7 @@
 ## Technologies Used
 {i used HTML and CSS to build this website. NO database}
 ## Support and contact details
-{For more information and errors write email to benard.bett@moringaschool.com}
+{For more information and errors write email to benard.bett@student.moringaschool.com}
 ### License
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
 Copyright (c) {2021} **{ObaTech Technologies}**
