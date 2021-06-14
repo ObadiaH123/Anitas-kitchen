@@ -1,0 +1,379 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#lines{
+  color: whitesmoke;
+  float: left;
+}
+.icon {
+    text-align: left;
+    position: relative;
+    left: 50px;
+    color: white;
+    font-size: large;
+}
+#header{
+    text-align: center;
+    font-size: 34px;
+    background-image: url(./Assets/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;  
+    color: white;
+  /* padding-top: 200px; */
+    justify-content: center;
+   font-weight: 100;
+flex-direction: column;
+}
+
+#header p{
+margin: 5px;
+}
+.icon {
+    text-align: left;
+    position: relative;
+    left: 50px;
+    color: white;
+    font-size: large;
+}
+
+.happy-party {
+    font-size: medium;
+    width: 25%;
+}
+
+.top-meals {
+    /*position: relative;*/
+    display: flex;
+    top: 0px;
+    /* flex-direction: row; */
+    justify-content: baseline;
+    width: 100%
+    
+} 
+
+.happy-hour {
+    height: 75px;
+    
+    color: black;
+    background-color: gainsboro;
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.party-time {
+    height: 75px;
+    
+    color: white;
+    background-color: #F15A29;
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*.menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    background-size: 100% 100%;
+    height: 200px;
+     
+} */
+
+
+.breakfast {
+    color: white;
+    font-size: medium;
+    height: 100px;
+    width: 25%;
+    padding-top: 50px;
+    background-image: url('./Assets/breakfast.jpg');
+    background-size: cover;
+    /* background-size: contain; */
+    text-align: center;
+
+}
+.lunch {
+    color: white;
+    font-size: medium;
+    height: 100px;
+    width: 25%;
+    padding-top: 50px;
+    background-image: url('./Assets/lunch.jpg');
+    text-align: center;
+    background-size: cover;
+    /* background-size: contain; */
+    opacity: 0.4;
+    
+}
+
+.dinner {
+    color: white;
+    font-size: medium;
+    height: 100px;
+    width: 25%;
+    padding-top: 50px;
+    background-image: url('./Assets/dinner.jpg');
+    text-align: center;
+    background-size: cover;
+    /* background-size: contain; */
+}
+
+.contentfood{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border: 10px;
+    justify-content: space-evenly;
+  }
+
+  .content-drinks{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border: 10px;
+    justify-content: space-evenly;
+  }
+  
+  .fast-food{
+    flex-direction: column;
+    height: 80%;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    border: solid white 10px;
+    box-shadow: 0px 0px 5px;
+  }
+  
+  .fastfood img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    
+  }
+
+  .drinks{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    
+    margin-top: 30px;
+
+  }
+
+  #food1{
+    
+    border: 10px solid white;
+    box-shadow: 5px 5px 5px 5px grey;
+  }
+  
+  #dr1{
+    border: 10px solid white;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px grey;
+  }
+
+  .fastfoodtext{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+  }
+
+  .drinkstxt{
+    height: 300px;
+    width: 300px;
+    text-align: right;
+    font-size: 20px;
+  }
+
+  .button {
+    background-color: white;
+    border: 1px solid orangered;
+    color: orangered;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+  #foodsBg {
+    background-image: url('./Assets/foodsBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    color: white;
+    box-sizing: border;
+    display: flex;
+    height: 100%;
+    margin-top: 80px;
+    align-items: center;
+    flex-direction: column;
+}
+
+  #foodsBg>div ul>li {
+    color: black;
+    line-height: 20px;
+}
+#foodsBg>div {
+    width: 90%;
+    background-color: white;
+    margin: 5%;
+    height: 90%;
+    margin-bottom: 5%;
+}
+
+#submenu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+}
+
+th{
+    padding: 15px;
+    background-color: rgb(204, 203,206);
+    margin: 25px;
+}
+
+h5{
+    color: #F15A29;
+    font-size: 20px;
+}
+#fast{
+    color: #F15A29;
+    background-color: white;
+}
+
+.cust{
+    color: #F15A29;
+    font-size: 40px;
+}
+
+.fastFoodli {
+width: 100%;
+border-collapse:collapse ;
+
+}
+ 
+.fastFoodli tr th{
+    border-right: 0.1px solid rgb(175, 173, 174);
+}
+
+
+.happy {
+    color: #F15A29;
+}
+
+.about {
+    color: #F15A29;
+}
+
+
+.about-statements {
+    display: flex;
+    float: right;
+    
+}
+
+.banner1{
+    background-color: #F15A29;
+}
+.food-to-email {
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-image: url('./Assets/subscribe.jpg');
+    height: 200px;
+}
+
+.move-down {
+    position: relative;
+    top: 60px;
+}
+
+input[type=text] {
+    background-color: lightgrey;
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+input[type=submit] {
+    background-color: #F15A29;
+    color: white;
+    width: 140px;
+    text-align: center;
+    padding: 5px;
+}
+
+.what-we-are {
+    color: white;
+    text-align: center;
+}
+
+.menu1 {
+    font-size: 20px;
+    text-size-adjust: 20px;
+}
+
+.menu-restaurant {
+    font-size: 15px;
+    text-align: center;
+}
+
+.banner2{
+    position: relative;
+    top: 30px;
+    height: 200px;
+}
+
+.about-customers {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    /* position: relative; */
+    left: 100px;
+    top: 15px;
+    margin-left: 20%;
+    width: 1000px;
+    /* background-color: lawngreen; */
+
+}
+
+.customers {
+    border: 1px solid grey;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    width: 700px;
+}
+
+.about-menu {
+    border: 1px solid grey;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    width: 400px;
+}
