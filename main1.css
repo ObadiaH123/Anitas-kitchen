@@ -292,3 +292,36 @@ border-collapse:collapse ;
     float: right;
     
 }
+
+.banner1{
+    background-color: #F15A29;
+}
+.food-to-email {
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-image: url('./Assets/subscribe.jpg');
+    height: 200px;
+}
+
+.move-down {
+    position: relative;
+    top: 60px;
+}
+
+input[type=text] {
+    background-color: lightgrey;
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+input[type=submit] {
+    background-color: #F15A29;
+    color: white;
+    width: 140px;
+    text-align: center;
+    padding: 5px;
+}
