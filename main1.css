@@ -325,3 +325,37 @@ input[type=submit] {
     text-align: center;
     padding: 5px;
 }
+
+.what-we-are {
+    color: white;
+    text-align: center;
+}
+
+.menu1 {
+    font-size: 20px;
+    text-size-adjust: 20px;
+}
+
+.menu-restaurant {
+    font-size: 15px;
+    text-align: center;
+}
+
+.banner2{
+    position: relative;
+    top: 30px;
+    height: 200px;
+}
+
+.about-customers {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    /* position: relative; */
+    left: 100px;
+    top: 15px;
+    margin-left: 20%;
+    width: 1000px;
+    /* background-color: lawngreen; */
+
+}
