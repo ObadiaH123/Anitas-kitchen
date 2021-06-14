@@ -266,3 +266,29 @@ h5{
     color: #F15A29;
     font-size: 40px;
 }
+
+.fastFoodli {
+width: 100%;
+border-collapse:collapse ;
+
+}
+ 
+.fastFoodli tr th{
+    border-right: 0.1px solid rgb(175, 173, 174);
+}
+
+
+.happy {
+    color: #F15A29;
+}
+
+.about {
+    color: #F15A29;
+}
+
+
+.about-statements {
+    display: flex;
+    float: right;
+    
+}
