@@ -1,0 +1,15 @@
+.lunch {
+    color: white;
+    font-size: medium;
+    height: 100px;
+    width: 25%;
+    padding-top: 50px;
+    background-image: url('./Assets/lunch.jpg');
+    text-align: center;
+    background-size: cover;
+    /* background-size: contain; */
+    opacity: 0.4;
+    
+}
+
+.dinner {
