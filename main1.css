@@ -4,6 +4,17 @@ body{
     margin: auto;
 }
 
+#lines{
+  color: whitesmoke;
+  float: left;
+}
+.icon {
+    text-align: left;
+    position: relative;
+    left: 50px;
+    color: white;
+    font-size: large;
+}
 .lunch {
     color: white;
     font-size: medium;
