@@ -157,3 +157,15 @@ margin: 5px;
     display: block;
     
   }
+
+  .drinks{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    
+    margin-top: 30px;
+
+  }
