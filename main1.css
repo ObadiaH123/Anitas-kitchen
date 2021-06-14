@@ -1,3 +1,5 @@
+
+
 body{
     width: 100%;
     height: 100%;
@@ -44,6 +46,7 @@ margin: 5px;
     font-size: medium;
     width: 25%;
 }
+
 
 .top-meals {
     /*position: relative;*/
@@ -98,6 +101,7 @@ margin: 5px;
     text-align: center;
 
 }
+
 .lunch {
     color: white;
     font-size: medium;
@@ -131,7 +135,7 @@ margin: 5px;
     border: 10px;
     justify-content: space-evenly;
   }
-
+  
   .content-drinks{
     display: flex;
     width: 100%;
@@ -157,7 +161,7 @@ margin: 5px;
     display: block;
     
   }
-
+  
   .drinks{
     display: flex;
     height: 300px;
@@ -169,6 +173,7 @@ margin: 5px;
     margin-top: 30px;
 
   }
+  
 
   #food1{
     
@@ -189,7 +194,7 @@ margin: 5px;
     font-size: 20px;
     
   }
-
+  
   .drinkstxt{
     height: 300px;
     width: 300px;
@@ -267,6 +272,7 @@ h5{
     font-size: 40px;
 }
 
+
 .fastFoodli {
 width: 100%;
 border-collapse:collapse ;
@@ -296,6 +302,7 @@ border-collapse:collapse ;
 .banner1{
     background-color: #F15A29;
 }
+
 .food-to-email {
     text-align: center;
     font-size: large;
