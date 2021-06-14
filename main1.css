@@ -169,3 +169,23 @@ margin: 5px;
     margin-top: 30px;
 
   }
+
+  #food1{
+    
+    border: 10px solid white;
+    box-shadow: 5px 5px 5px 5px grey;
+  }
+  
+  #dr1{
+    border: 10px solid white;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px grey;
+  }
+
+  .fastfoodtext{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+  }
